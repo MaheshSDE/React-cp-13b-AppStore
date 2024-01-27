@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.appContainer {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: auto;
+}
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.tabContainer {
+  list-style-type: none;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.horizontal-line {
+  width: 100px;
+  color: #000000;
+}
+.appsContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+}
+.inputStyle {
+  height: 30px;
+  width: 100%;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #7b8794;
+  padding: 10px;
+}
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  font-weight: bold;
+}

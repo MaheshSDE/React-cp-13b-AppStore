@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.button {
+  height: 40px;
+  width: 70px;
+  margin: 10px;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #7b8794;
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.active-style-button {
+  color: #2563eb;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-color: #2563eb;
+}
